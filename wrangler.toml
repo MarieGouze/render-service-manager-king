@@ -1,0 +1,11 @@
+name = "render-service-manager-king"
+compatibility_date = "2025-08-01"
+workers_dev = true
+[vars]
+ADMIN_USERNAME = "admin"
+ADMIN_PASSWORD = "sk-318712"
+RENDER_ACCOUNTS = "[{\"id\": \"account1\", \"name\": \"Account 1\", \"apiKey\": \"rnd_xxx\"}]"
+SESSION_SECRET = "sk-318712"
+kv_namespaces = [
+  { binding = "RENDER_KV", id = "你的KV_ID" }
+]
